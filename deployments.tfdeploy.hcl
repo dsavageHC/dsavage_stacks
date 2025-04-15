@@ -14,3 +14,9 @@ deployment "complex" {
     instances        = 3
   }
 }
+deployment "prod" {
+  inputs = {
+    prefix           = "prod"
+    instances        = 3
+  }
+}
